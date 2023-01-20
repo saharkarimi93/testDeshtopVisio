@@ -1,0 +1,21 @@
+﻿<Window x:Class="testScoreNew.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testScoreNew"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="num1" HorizontalAlignment="Left" Margin="427,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Height="35" RenderTransformOrigin="1.46,0.906"/>
+        <TextBox x:Name="num2" HorizontalAlignment="Left" Margin="427,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.282,-0.265" Height="28"/>
+        <Label Content="First Score" HorizontalAlignment="Left" Margin="219,92,0,0" VerticalAlignment="Top" Height="30" Width="88"/>
+        <Label Content="Second Score" HorizontalAlignment="Left" Margin="219,175,0,0" VerticalAlignment="Top" Height="28" Width="83"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,297,0,0" VerticalAlignment="Top" Height="31" Width="118" Click="Button_Click"/>
+        <TextBox x:Name="result" HorizontalAlignment="Left" Margin="427,350,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Height="30"/>
+        <Label Content="Result" HorizontalAlignment="Left" Margin="219,347,0,0" VerticalAlignment="Top" Height="33" Width="83" RenderTransformOrigin="0.445,1.684"/>
+        <TextBox x:Name="num3" HorizontalAlignment="Left" Margin="427,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.089,0.384" Height="26"/>
+        <Label Content="Third score" HorizontalAlignment="Left" Margin="219,234,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.088,0.686" Height="26" Width="83"/>
+
+    </Grid>
+</Window>
